@@ -1,0 +1,22 @@
+body {
+    background-color: darkcyan;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+input {
+    border: 0px none #ffffff;
+    width: 100px;
+}
+
+.resultado {
+    background-color: #ffffff;
+    display:inline-flex;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 30px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>CALCULADORA</h1>
+
+    <input class="entrada" id="n1" type="number" placeholder="Primeiro valor"/>
+    <input class="entrada" id="n2" type="number" placeholder="Segundo valor"/>
+
+<br><br>
+
+    <select aria-label="label for the select" id="seletor">
+        <option disabled selected>Operador</option>
+        <option value="sum">Somar</option>
+        <option value="sub">Subtrair</option>
+        <option value="mul">Multiplicar</option>
+        <option value="div">Dividir</option>
+    </select>
+
+    <button onclick="operation()">Calcular</button>
+
+    <br><br>
+<div class="resultado">
+        <p> = </p>
+        <p id="total"></p>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
